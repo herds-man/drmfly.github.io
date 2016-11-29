@@ -1,0 +1,122 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://iliwei.me
+date_format: "ordinal"
+title: 李玮
+subtitle: "Faith is about believing in someone or something. "
+description: "十字路口,繁华街头......"
+keywords: 漠然
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+source_code: https://github.com/mritd/mritd.github.io
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 李玮
+organization: Changhong, Inc.
+organization_url: http://www.changhong.com.cn
+location: Beijing, China
+email: drmfly_liw@gmail.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /open-source/
+    label: 开源
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#    - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+    - jekyll-github-metadata
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: drmfly
+#douban_username: mritd
+facebook_username: mritd1234
+#weibo_username: mritd
+#zhihu_username: mritd
+twitter_username: mritd
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, duoshuo
+comments_provider: disqus
+# !!!重要!!! 请修改下面两个用户名为你自己申请的
+# !!!Important!!! Please modify usernames below to yours
+duoshuo_username: mritd
+disqus_username: mritd
+# 在使用 disqus 的时候可点击显示多说评论框
+lazy_load_duoshuo: true
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-82387173-1
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_software_keywords: [Java, shell, Docker,Linux]
+skill_mobile_app_keywords: [Java]
+#skill_windows_keywords: []
+
+# ---------------- #
+# Github metadata  #
+# ---------------- #
+repository: drmfly/iliwei.me
