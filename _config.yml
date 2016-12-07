@@ -11,7 +11,7 @@ keywords: 漠然
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-source_code: https://github.com/mritd/mritd.github.io
+source_code: https://github.com/drmfly/drmfly.github.io
 side_bar_repo_limit: 5
 
 # ---------------- #
@@ -85,11 +85,11 @@ collections:
 #      Socials     #
 # ---------------- #
 github_username: drmfly
-#douban_username: mritd
-facebook_username: mritd1234
-#weibo_username: mritd
-#zhihu_username: mritd
-twitter_username: mritd
+#douban_username: drmfly
+facebook_username: drmfly1234
+#weibo_username: drmfly
+#zhihu_username: drmfly
+twitter_username: drmfly
 
 # ---------------- #
 #      Comments    #
@@ -98,8 +98,8 @@ twitter_username: mritd
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mritd
-disqus_username: mritd
+duoshuo_username: drmfly
+disqus_username: drmfly
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
 
