@@ -43,7 +43,7 @@ runner 以job为单位执行任务
 起名为:titer
 待续。。。
 
-github(https://)
+github(https://github.com/changhongio/titer)
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
 
