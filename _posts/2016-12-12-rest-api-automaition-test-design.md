@@ -2,13 +2,13 @@
 
 layout: post
 
-title: 自动化API测试服务设计
+title: 自动化API测试服务[Titer]设计
 
-categories: [automation,test]
+categories: [automation,test,titer]
 
 description: 自动化API测试服务设计
 
-keywords: automation,test,API
+keywords: titer,automation,test,API
 
 ---
 
@@ -36,9 +36,14 @@ keywords: automation,test,API
 master与node/runner之间通过REST golang RPC 通信
 
 runner 以job为单位执行任务
+
 测试节点加入集群时，从master获取etcd等配置信息。
 
+
+起名为:titer
 待续。。。
+
+github(https://)
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
 
