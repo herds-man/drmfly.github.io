@@ -112,7 +112,7 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_software_keywords: [Java, shell, Docker,Linux]
+skill_software_keywords: [Java, Golang,kubernetes, Docker,Linux]
 skill_mobile_app_keywords: [Java]
 #skill_windows_keywords: []
 

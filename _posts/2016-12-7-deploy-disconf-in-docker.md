@@ -23,8 +23,30 @@ keywords: disconf,docker
 公司选择国内流行的百度disconf作为配置文件中心，本文主要讨论基于容器部署disconf。
 
 ### 二、编译disconf-web
+暂时使用传统方式编译war包详情见
+将来使用容器编译构建
 
 ### 三、镜像制作
+```
+FROM tomcat:alpine
+RUN echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" >  /etc/apk/repositories && apk update
+RUN apk add --no-cache nginx && mkdir /run/nginx && rm -rf /usr/local/tomcat/webapps/*
+COPY app/disconf-web.war /usr/local/tomcat/webapps/ROOT.war
+RUN cd /usr/local/tomcat/webapps/ && mkdir ROOT && unzip ROOT.war -d ./ROOT && rm ROOT.war
+COPY app/*.properties /usr/local/tomcat/webapps/ROOT/WEB-INF/classes/
+COPY bin/entrypoint.sh /app/entrypoint.sh 
+COPY nginx/nginx.conf /etc/nginx/nginx.conf
+COPY app/html /app/html
+RUN chmod u+x /app/entrypoint.sh
+WORKDIR /app
+EXPOSE 80
+ENTRYPOINT ./entrypoint.sh
+
+```
+启动容器
+```
+docker run --name -p 8000:8000 disconf disconf:alpine
+```
 
 ### 四、Compose部署
 
