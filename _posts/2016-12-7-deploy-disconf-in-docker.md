@@ -14,7 +14,7 @@ keywords: disconf,docker
 
 > Docker容器部署disconf
 
-### 一、背景
+#### 一、背景
 
 随着容器技术、微服务架构的流行，互联网以及互联网转型ing企业已经逐步开始从单体架构解耦为微服务架构的同时，将传统应用/程序容器化部署。
 
@@ -22,11 +22,11 @@ keywords: disconf,docker
 
 公司选择国内流行的百度disconf作为配置文件中心，本文主要讨论基于容器部署disconf。
 
-### 二、编译disconf-web
+#### 二、编译disconf-web
 暂时使用传统方式编译war包详情见
 将来使用容器编译构建
 
-### 三、镜像制作
+#### 三、镜像制作
 ```
 FROM tomcat:alpine
 RUN echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" >  /etc/apk/repositories && apk update
@@ -43,12 +43,20 @@ EXPOSE 80
 ENTRYPOINT ./entrypoint.sh
 
 ```
-启动容器
+待完善：目前采用配置文件修改zk,mysql地址,后续使用环境变量传入zk,redis,mysql等配置信息。计划完成时间2016/12/19
+
+#### 四、构建镜像
+
+```
+docker build --no-cache -t disconf:alpine .
+```
+
+#### 五、启动容器
 ```
 docker run --name -p 8000:8000 disconf disconf:alpine
 ```
 
-### 四、Compose部署
+#### 四、Compose部署
 
 待补充....
 
