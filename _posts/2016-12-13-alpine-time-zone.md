@@ -25,15 +25,22 @@ echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/
 ```
 apk add tzdata
 ```
+
 #### 拷贝对应时区止localtime
+
 ```
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
+
 #### 指定时区
+
 ```
 echo "Shanghai/Asia" > /etc/timezone
+
 ```
+
 #### Dockerfile 写法
+
 ```
 FROM tomcat:alpine
 RUN echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" >  /etc/apk/repositories \
