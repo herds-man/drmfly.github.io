@@ -4,11 +4,11 @@ layout: post
 
 title: 基于alpine构建镜像时关于时区修改问题
 
-categories: [automation,test,titer]
+categories: [Docker,Alpine,Timezone]
 
 description: 构建docker镜像时依赖的官方镜像大多时区不是国内东八区,需要在build镜像时重新设置时区
 
-keywords: titer,automation,test,API
+keywords: alpine,timezone
 
 ---
 
