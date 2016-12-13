@@ -39,8 +39,13 @@ runner 以job为单位执行任务
 
 测试节点加入集群时，从master获取etcd等配置信息。
 
+### 模块设计
+- Master 负责测试任务调度分派、同时提供api-server 供web console、客户端工具调用 后续提供基于golang编译的不同平台（Win、Mac、Linux）的ctl(客户端工具) 方便测试用例管理、任务流水线配置、获取测试报告等
+- Runner  执行具体测试任务（流水线工作），接受的任务以整个用例为单位。
+- Console 控制台，前端控制台，为用户提供可视化的用例管理、测试流水线作业配置
 
 起名为:titer
+
 待续。。。
 
 github(https://github.com/changhongio/titer)
