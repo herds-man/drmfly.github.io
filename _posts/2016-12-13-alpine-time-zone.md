@@ -39,6 +39,12 @@ echo "Shanghai/Asia" > /etc/timezone
 
 ```
 
+#### 删除tzdata
+
+```
+apk del tzdata
+```
+
 #### Dockerfile 写法
 
 ```
