@@ -29,7 +29,8 @@ keywords: disconf,docker
 #### 三、镜像制作
 ```
 FROM tomcat:alpine
-RUN echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" >  /etc/apk/repositories && apk update
+RUN echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" \
+>  /etc/apk/repositories && apk update
 RUN apk add --no-cache nginx && mkdir /run/nginx && rm -rf /usr/local/tomcat/webapps/*
 COPY app/disconf-web.war /usr/local/tomcat/webapps/ROOT.war
 RUN cd /usr/local/tomcat/webapps/ && mkdir ROOT && unzip ROOT.war -d ./ROOT && rm ROOT.war

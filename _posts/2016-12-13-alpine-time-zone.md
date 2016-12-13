@@ -16,7 +16,8 @@ keywords: titer,automation,test,API
 
 #### 修改镜像源为阿里
 ```
-echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" >  /etc/apk/repositories && apk update
+echo -e  "http://mirrors.aliyun.com/alpine/v3.4/main\nhttp://mirrors.aliyun.com/alpine/v3.4/community" \
+ >  /etc/apk/repositories && apk update
 ```
 
 #### 安装tzdata
