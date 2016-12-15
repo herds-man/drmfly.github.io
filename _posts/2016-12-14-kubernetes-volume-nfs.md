@@ -2,33 +2,24 @@
 
 layout: post
 
-title: kubernetes 1.5.1 集群部署
+title: kubernetes volume 之 nfs
 
-categories: [kubernetes,centos7]
+categories: [kubernetes,nfs]
 
-description: kubernetes 1.5.1集群部署
+description: kubernetes volume 之 nfs
 
-keywords: kubernetes,1.5.1,centos7
+keywords: kubernetes,nfs
 
 ---
 
-> Centos 7 kubernets 1.5.1 集群部署
+> kubernets 挂载 nfs 存储文件
 
-#### 集群规划
-
-
-
-
-#### dns服务器搭建
+#### 安装nfs-server
 
 
 
-#### yum mirrors 配置
 
-#### 主节点安装
-
-#### 节点加入
-
+#### kubernetes pod volume
 
 
 
