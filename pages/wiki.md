@@ -5,7 +5,7 @@ description: 多看点多学点总是好的
 keywords: 维基, Wiki
 comments: false
 menu: 维基
-permalink: /wiki/
+permalink: /wiki/     
 ---
 
 > 多看点多学点总是好的......
