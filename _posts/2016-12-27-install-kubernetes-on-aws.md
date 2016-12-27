@@ -21,8 +21,8 @@ kubernetes官网有基于kops安装集群的教程，但个人还是喜欢使用
 
 #### Redhat 7 使用Centos yum
 - ##### 安装wget 
-浏览器打开链接http://mirrors.aliyun.com/centos/7/os/x86_64/Packages/ 找到wget
-下载wget-{version}.el7.x86_64.rpm 下载,scp 或者 通过 sftp上传到redhat主机.
+浏览器打开链接http://mirrors.aliyun.com/centos/7/os/x86_64/Packages/。找到wget
+下载wget-{version}.el7.x86_64.rpm，scp 或者 通过 sftp上传到redhat主机。
 
 ```shell
 # 注意替换{version}为实际对应版本号（版本升级，不固定，所以以变量代替）
