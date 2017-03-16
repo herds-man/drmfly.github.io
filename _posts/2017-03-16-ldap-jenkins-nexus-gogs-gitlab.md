@@ -19,8 +19,8 @@ keywords: LDAP,openLDAP,gitlab,jenkins,gogs,nexus,docker
 - 10.1.2.13 部署gogs
 - 10.1.2.14 部署nexus
 - 10.1.2.15 部署svn
-### 部署openLDAP、phpLDAPadmin
 
+### 部署openLDAP、phpLDAPadmin
 
 ### 部署gitlab
 
