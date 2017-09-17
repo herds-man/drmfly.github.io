@@ -2,11 +2,11 @@
 
 layout: post
 
-title: 基于docker 部署zookeeper集群
+title: docker容器部署zookeeper集群
 
-categories: [技术文档]
+categories: [docker]
 
-description: 基于docker host网络模式部署zookeeper集群
+description: docker host网络模式部署zookeeper集群
 
 keywords: zookeeper,docker
 
