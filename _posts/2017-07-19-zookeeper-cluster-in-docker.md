@@ -2,7 +2,7 @@
 
 layout: post
 
-title: docker容器部署zookeeper集群
+title: Docker容器部署zookeeper集群
 
 categories: [docker]
 
