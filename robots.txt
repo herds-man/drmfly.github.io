@@ -1,4 +1,4 @@
 # robots.txt
 User-agent: *
 Disallow: 
-Sitemap: http://iliwei.me/sitemap.xml
+Sitemap: https://liwei.io/sitemap.xml
