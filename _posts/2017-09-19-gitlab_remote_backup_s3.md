@@ -22,7 +22,7 @@ aws_secret_access_key
 
 
 ### 修改gitlab配置文件
-```yaml
+```ruby
 gitlab_rails['manage_backup_path'] = true
 gitlab_rails['backup_path'] = "/var/opt/gitlab/backups"
 gitlab_rails['backup_archive_permissions'] = 0644 # See: http://doc.gitlab.com/ce/raketasks/backup_restore.html#backup-archive-permissions
