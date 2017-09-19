@@ -41,7 +41,7 @@ gitlab_rails['backup_multipart_chunk_size'] = 104857600
 ### Reconfigure gitlab
 
 ```shell
-$ gitlabctl reconfiure
+$ gitlabctl reconfigure
 ```
 
 ### 备份数据
