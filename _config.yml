@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://liwei.io
+url: https://herdsman.me
 date_format: "ordinal"
-title: 李玮
+title: Herdsman
 subtitle: "Faith is about believing in someone or something. "
-description: "李玮博客"
-keywords: 李玮
+description: "Herdsman Blog"
+keywords: Herdsman
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-source_code: https://github.com/drmfly/drmfly.github.io
+source_code: https://github.com/herds-man/herds-man.github.io
 side_bar_repo_limit: 5
 
 # ---------------- #
@@ -119,4 +119,4 @@ skill_mobile_app_keywords: [Java]
 # ---------------- #
 # Github metadata  #
 # ---------------- #
-repository: drmfly/drmfly.github.io
+repository: herds-man/herds-man.github.io
